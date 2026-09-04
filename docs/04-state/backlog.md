@@ -7,22 +7,24 @@
 
 ## Đang làm
 
-Feature `klondike` — toàn bộ bản đầu của game, trên nhánh `feat/klondike`.
-Tài liệu tier-1 và năm ADR đã xong; `docs/specs/klondike/design.md` và `plan.md` đã viết.
-Đang ở giai đoạn hiện thực theo `plan.md` — trạng thái từng việc xem checkbox trong file đó.
+Không có việc nào đang dở. Feature `klondike` đã xong trên nhánh `feat/klondike`:
+FR-01 → FR-13 đều `xong`, 208 test Vitest và 85 test Playwright (4 bề rộng) xanh,
+`yarn typecheck` / `yarn lint` / `yarn build` xanh. Nhánh chưa merge vào `main`.
 
 ## Việc tiếp theo
 
 | Việc | Liên quan | Ưu tiên | Vì sao ưu tiên đó |
 | --- | --- | --- | --- |
-| Hoàn tất `plan.md` của feature `klondike` | FR-01 → FR-12 | cao | Chưa có gì chạy được cho tới khi xong |
-| Dựng workflow GitHub Actions build + deploy Pages | — | trung bình | Trang tĩnh chỉ có ích khi có người mở được. Làm sau khi game chạy |
-| Đặt `origin` trên GitHub | — | trung bình | Repo hiện chỉ có local, `feature-flow` giả định có `origin/main` |
-| Rà lại NFR-PERF-05 bằng số thật từ `next build` | NFR-PERF-05 | thấp | Ngưỡng 150KB hiện là ước lượng, chưa đo |
+| Merge `feat/klondike` vào `main` và bật GitHub Pages cho repo | — | cao | `.github/workflows/deploy.yml` đã sẵn nhưng chưa chạy lần nào; trang tĩnh chỉ có ích khi mở được |
+| E2E chơi hết một ván **bằng kéo thả** | FR-04 | trung bình | Hiện kéo thả chỉ được kiểm ở mức một nước; hai lối vào phải cho cùng kết quả, và đó đúng là thứ dễ trôi ra khỏi nhau |
+| Đo NFR-PERF-02 trên máy thật, có throttle CPU | NFR-PERF-02 | trung bình | Ngưỡng 100ms mỗi nước chưa từng được đo; mọi thứ khác trong `nfr.md` đã có số |
+| Xem lại `--overlap-up` ở 320px | FR-11 | thấp | Ở 320px lá bài rộng ~41px, dải nhìn thấy của lá bị che còn 18px — chơi được nhưng chật |
 
 ## Nợ kỹ thuật — cố ý làm tạm
 
 | Chỗ nào | Đã đánh đổi gì | Vì sao chấp nhận | Khi nào buộc phải trả |
 | --- | --- | --- | --- |
-| nhánh `feat/klondike` trong chính repo, không dùng git worktree | `feature-flow` §3 yêu cầu worktree tách khỏi `main` | Repo chưa có `origin` để lấy `origin/main`, và một worktree riêng buộc phải cài lại `node_modules` lần hai cho một dự án chưa có gì | Ngay khi repo có remote, hoặc khi có feature thứ hai chạy song song |
-| chưa có mockup trên canvas Claude Design | `feature-flow` §1 bước 2 yêu cầu ba artboard mỗi màn hình | Người dùng đã yêu cầu chạy một mạch không dừng ở cổng duyệt nào; canvas chỉ có nghĩa khi có người xem và duyệt nó | Trước feature UI tiếp theo, hoặc khi bố cục cần thay đổi lớn |
+| nhánh `feat/klondike` trong chính repo, không dùng git worktree | `feature-flow` §3 yêu cầu worktree tách khỏi `main` | Lúc bắt đầu repo chưa có `origin`, và một worktree riêng buộc phải cài lại `node_modules` lần hai cho một dự án chưa có dòng code nào | Ở feature thứ hai, hoặc ngay khi có hai nhánh chạy song song |
+| chưa có mockup trên canvas Claude Design | `feature-flow` §1 bước 2 yêu cầu ba artboard mỗi màn hình | Người dùng yêu cầu chạy một mạch không dừng ở cổng duyệt nào; canvas chỉ có nghĩa khi có người xem và duyệt. Bù lại: wireframe ASCII trong `design.md` §3, token đo tương phản thật trong `MASTER.md`, và ảnh chụp app thật ở 320/375/768/1440 | Trước feature UI tiếp theo, hoặc khi bố cục đổi lớn |
+| `scripts/find-winnable.ts` tìm được lời giải nhưng rất chậm | Tìm kiếm DFS thuần với bảng chuyển vị, không có heuristic mạnh | Nó chỉ cần chạy một lần để sinh fixture, và fixture đã được commit. Không nằm trên đường CI | Khi cần thêm ván mẫu thứ hai, hoặc khi luật/PRNG đổi làm fixture cũ hết đúng |
+| `e2e/fixtures/winnable.json` gắn chặt với thuật toán chia bài | Đổi `mulberry32`, thứ tự `createDeck`, hay cách xáo là fixture trỏ sang ván khác và `win.spec.ts` đỏ | Đây là tính chất mong muốn: cùng seed phải cho cùng ván (ADR-0001), nên fixture đỏ chính là cảnh báo đúng | Khi nào thật sự đổi cách chia bài — lúc đó sinh lại fixture |
