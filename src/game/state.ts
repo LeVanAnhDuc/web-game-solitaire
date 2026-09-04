@@ -12,7 +12,10 @@ import { SUITS, type Card, type Suit } from "./cards";
 export type DrawMode = 1 | 3;
 
 /** A tableau column: face-down cards below, the face-up run above. */
-export type TableauColumn = { readonly down: readonly Card[]; readonly up: readonly Card[] };
+export type TableauColumn = {
+  readonly down: readonly Card[];
+  readonly up: readonly Card[];
+};
 
 export type FoundationIndex = 0 | 1 | 2 | 3;
 export type TableauIndex = 0 | 1 | 2 | 3 | 4 | 5 | 6;
@@ -48,7 +51,9 @@ export function pileIdEquals(a: PileId, b: PileId): boolean {
 }
 
 export function pileKey(p: PileId): string {
-  return p.kind === "foundation" || p.kind === "tableau" ? `${p.kind}-${p.index}` : p.kind;
+  return p.kind === "foundation" || p.kind === "tableau"
+    ? `${p.kind}-${p.index}`
+    : p.kind;
 }
 
 /** The cards of a pile, bottom first. For a tableau column, down then up. */
