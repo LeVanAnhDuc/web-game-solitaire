@@ -8,7 +8,13 @@
 <!-- BEGIN:auto — bảng dưới do .claude/scripts/docs-regen.sh sinh từ các file ADR. Đừng sửa tay. -->
 | ID | Tiêu đề | Ngày | Trạng thái |
 | --- | --- | --- | --- |
-| — | _chưa có ADR nào_ | — | — |
+| [ADR-0001](0001-seed-va-undo-bang-phat-lai.md) | Sinh thế bài từ seed và hoàn lại nước đi bằng cách phát lại lịch sử | 2026-09-04 | accepted |
+| [ADR-0002](0002-khong-co-co-faceup.md) | Trạng thái úp/ngửa suy ra từ vị trí, không có cờ trên lá bài | 2026-09-04 | accepted |
+| [ADR-0003](0003-dom-cho-bai-canvas-cho-man-thang.md) | Vẽ bài bằng DOM, dành canvas riêng cho màn mừng thắng | 2026-09-04 | accepted |
+| [ADR-0004](0004-next-js-tinh-theo-khuon-cac-game-anh-em.md) | Dùng Next.js xuất tĩnh, theo đúng khuôn của các game cùng thư mục | 2026-09-04 | accepted |
+| [ADR-0005](0005-khong-luu-van-dang-choi.md) | Không lưu ván đang chơi; tải lại trang là ván mới | 2026-09-04 | accepted |
+| [ADR-0006](0006-mo-mot-van-cu-the-qua-dia-chi.md) | Mở một ván cụ thể qua tham số địa chỉ `?van=<seed>` | 2026-09-04 | accepted |
+| [ADR-0007](0007-phien-ban-va-release-note-suy-ra-tu-lich-su-commit.md) | Số phiên bản và release note suy ra từ lịch sử commit | 2026-09-04 | accepted |
 <!-- END:auto -->
 
 Trạng thái: `accepted` · `superseded by ADR-00xx` · `deprecated`

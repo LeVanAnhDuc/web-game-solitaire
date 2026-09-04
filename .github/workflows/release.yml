@@ -1,0 +1,62 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never cancel a release halfway: a cancelled run can leave a tag with no release
+# attached to it.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # full history and tags: both the version bump and the notes are derived
+          # from what happened since the previous tag
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile
+
+      # A version number is a claim that this commit works. Half a minute of tests
+      # is cheaper than a tag pointing at a board that does not deal.
+      - name: Gate the tag on the code actually working
+        run: yarn typecheck && yarn test
+
+      # Both steps below are scripts in the repository rather than shell buried in
+      # this file, so the version scheme can be exercised on a laptop:
+      #   yarn release:next
+      #   yarn release:notes v1.2.0
+      # A release process you can only test by pushing to main is one nobody tests.
+      - name: Decide the next version
+        id: version
+        run: |
+          next=$(bash scripts/next-version.sh --explain)
+          echo "next=$next" >> "$GITHUB_OUTPUT"
+
+      - name: Compose the release notes
+        if: steps.version.outputs.next != ''
+        run: bash scripts/release-notes.sh "${{ steps.version.outputs.next }}" > RELEASE_NOTES.md
+
+      - name: Publish
+        if: steps.version.outputs.next != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${{ steps.version.outputs.next }}" \
+            --target "$GITHUB_SHA" \
+            --title "${{ steps.version.outputs.next }}" \
+            --notes-file RELEASE_NOTES.md

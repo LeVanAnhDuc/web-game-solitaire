@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * The ONLY transcription of docs/design-system/solitaire/MASTER.md. Every value below
+ * appears there with its contrast ratio; nothing here is invented. tailwind.config.ts
+ * points at these variables and holds no colour of its own.
+ */
+:root {
+  /* Surfaces */
+  --bg-page: #0b3d2e;
+  --bg-toolbar: #072b20;
+  --bg-card: #fdfdf8;
+  --bg-card-back: #4a90d9;
+  --fg-card-back: #ffffff;
+
+  /* Text */
+  --fg-default: #f2f7f4;
+  --fg-muted: #a9c6b6;
+  --fg-card-red: #c0262c;
+  --fg-card-black: #17202a;
+
+  /* State */
+  --ring-focus: #ffd166;
+  --ring-focus-edge: #0b3d2e;
+  --bg-reject: #e4572e;
+  --edge-empty: #7fa893;
+  --edge-card: #fdfdf8;
+
+  /* Type */
+  --font-ui: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-num: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+
+  /* Geometry - mobile first, 320..767 */
+  --card-w: calc((100vw - 32px) / 7);
+  --card-h: calc(var(--card-w) * 1.4);
+  --gap-x: 4px;
+  --overlap-down: 8px;
+  --overlap-up: 18px;
+  --pad-board: 8px;
+  --radius-card: 4px;
+
+  /* Motion */
+  --dur-move: 180ms;
+  --dur-flip: 220ms;
+  --ease-move: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --card-w: 72px;
+    --card-h: 101px;
+    --gap-x: 8px;
+    --overlap-down: 12px;
+    --overlap-up: 26px;
+    --pad-board: 16px;
+    --radius-card: 6px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --card-w: 96px;
+    --card-h: 134px;
+    --gap-x: 12px;
+    --overlap-down: 14px;
+    --overlap-up: 32px;
+    --pad-board: 24px;
+    --radius-card: 8px;
+  }
+}
+
+/* NFR-A11Y-05: no exceptions, including the win overlay. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-move: 0ms;
+    --dur-flip: 0ms;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--fg-default);
+  font-family: var(--font-ui);
+  /* The board never scrolls sideways - FR-11. A horizontal scrollbar here means a
+     layout bug, so it is clipped rather than papered over with overflow-x: auto. */
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Two-layer focus ring: see MASTER.md section 1. A single colour cannot clear 3:1
+   against both the dark felt and a white card face. */
+.focus-ring:focus-visible {
+  outline: 2px solid var(--ring-focus);
+  outline-offset: 0;
+  box-shadow: 0 0 0 4px var(--ring-focus-edge);
+}
+
+@keyframes reject-flash {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  25%,
+  75% {
+    box-shadow: 0 0 0 3px var(--bg-reject);
+  }
+}
+
+.reject-flash {
+  animation: reject-flash 200ms ease-out 2;
+}

@@ -1,34 +1,23 @@
 # Bất biến chịu lực
 
 > **Trả lời:** Sửa gì thì hệ thống sai **âm thầm** — test vẫn xanh mà kết quả vẫn sai?
-> **Trạng thái:** 🟡 mặc định đề xuất, chưa rà theo dự án
-> **Cập nhật:** — · commit —
+> **Trạng thái:** 🟢 đủ
+> **Cập nhật:** 2026-09-04 · commit —
 > **Cập nhật khi:** phát hiện một bất biến mới — thường là ngay sau khi ai đó vừa phá nó
 
-<!-- CÁCH ĐIỀN
-ĐỌC FILE NÀY TRƯỚC KHI SỬA BẤT KỲ DÒNG CODE NÀO.
-
-Bất biến ở đây KHÁC quy ước code. Quy ước format/naming thì ESLint bắt được; bất
-biến thì không có công cụ nào bắt, và vi phạm nó thì code vẫn chạy, test vẫn xanh,
-chỉ có kết quả là sai.
-
-VIỆC CỦA BẠN: xoá dòng không áp dụng, thêm bất biến riêng của dự án, đổi sang 🟢.
-
-GIỮ FILE NÀY < 40 DÒNG NỘI DUNG. Nó được đọc mỗi lần sửa code; dài ra là không ai
-đọc nữa. Thứ gì không thuộc loại "sai âm thầm" thì bỏ ra khỏi đây.
-
-KHÔNG chứa: quy ước format/naming (-> lint config), kiến trúc (-> architecture.md).
--->
+<!-- Đã rà theo dự án 2026-09-04. Mặc định của scaffold viết cho app có server, DB và
+tài khoản; dự án này không có thứ nào trong đó nên chúng đã được thay bằng bất biến
+thật của một engine bài. -->
 
 | # | Bất biến | Vi phạm thì sao |
 | --- | --- | --- |
-| 1 | Thời gian lưu ở **UTC**. Đổi múi giờ chỉ xảy ra ở tầng hiển thị | Lệch một ngày ở biên múi giờ. Test viết theo giờ máy vẫn xanh |
-| 2 | Mọi mutation kiểm quyền ở **server**, kể cả khi UI đã ẩn nút | Người dùng gọi API trực tiếp và sửa được dữ liệu của người khác |
-| 3 | Chỉ tầng service truy vấn datastore. Route/handler không query trực tiếp | Bỏ qua lớp kiểm quyền và validate nằm trong service |
-| 4 | Tiền và số cần chính xác **không dùng float** | Sai số tích luỹ, không tái tạo được, phát hiện sau nhiều tháng |
-| 5 | Bản ghi đang được tham chiếu thì **soft-delete**, không hard-delete | Dữ liệu tham chiếu mồ côi, báo cáo cũ thiếu dòng |
-| 6 | Tác vụ ghi quan trọng phải **idempotent** theo một khoá | Retry hoặc double-click tạo bản ghi trùng |
-| 7 | Migration **chỉ tiến**. Không sửa migration đã chạy ở bất kỳ môi trường nào | Lịch sử schema giữa các môi trường lệch nhau, không hoà giải được |
-| 8 | Thứ tự middleware: **auth → validate → handler** | Handler nhận dữ liệu chưa validate, hoặc validate chạy khi chưa biết người gọi |
-| 9 | Không tin `id` gửi từ client để xác định quyền sở hữu. Luôn đối chiếu với session | Truy cập chéo dữ liệu giữa các người dùng |
-| 10 | <!-- TODO: bất biến riêng của dự án này --> | |
+| 1 | `src/game/` **không import React, DOM, Next hay bất cứ thứ gì của trình duyệt** | Luật chơi hết test được nếu không render. Phát hiện rất muộn, và lúc đó gỡ ra rất đắt |
+| 2 | **Chỉ `applyMove` được đổi thế bài.** Component không splice, không push vào mảng bài | Bàn bài trên màn hình đúng, nhưng phát lại từ seed ra thế khác. Undo bắt đầu trả về thế bài lạ, không tài nào lần ra từ đâu |
+| 3 | **Không `Math.random`, không `Date.now`, không đọc thời gian trong `src/game/`.** Ngẫu nhiên chỉ đến từ seed truyền vào | Cùng seed ra hai thế bài khác nhau. Test vẫn xanh vì mỗi lần chạy tự nhất quán với chính nó |
+| 4 | `applyMove` **thuần và không đột biến đối số** — trả state mới, không sửa state cũ | Lịch sử `Move[]` phát lại ra kết quả khác lần đầu, vì các state cũ đã bị sửa ngầm |
+| 5 | Trạng thái úp/ngửa **suy ra từ vị trí** (`down` hay `up`), không có cờ `faceUp` trên lá bài | Hai nguồn sự thật lệch nhau: lá nằm trong `up` mà cờ nói úp. UI vẽ đúng, luật tính sai |
+| 6 | **Tap và drag phải dựng cùng một `Move` rồi đi qua cùng `applyMove`** | Hai bộ luật song song, lệch dần theo thời gian. Một nước hợp lệ khi kéo lại vô hiệu khi chạm |
+| 7 | Một thao tác **không sinh nước đi hợp lệ thì không được ghi vào `history`** | Lịch sử có nước rỗng; Undo bấm một cái mà bàn bài không đổi, người chơi tưởng nút hỏng |
+| 8 | Mọi lá bài mang **`id` ổn định suốt ván** và `id` là `key` của React | React tái dùng nhầm DOM node giữa các lá; hiệu ứng chuyển động gán sai lá, thỉnh thoảng lá hiện sai mặt trong một khung hình |
+| 9 | Chuỗi tự hoàn tất phải **huỷ được**, và mọi thao tác của người chơi huỷ nó ngay | Nước tự động và nước tay chen nhau vào cùng `history`, cho ra thế bài không ai dựng lại được |
+| 10 | Không đọc/ghi `localStorage`, `cookie`, không `fetch` ra ngoài — xem NFR-DATA-01 | Dự án âm thầm có trạng thái tồn tại qua các phiên; bug "chỉ xảy ra trên máy tôi" bắt đầu từ đây |

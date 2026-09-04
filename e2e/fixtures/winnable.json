@@ -1,0 +1,6631 @@
+{
+  "seed": 2,
+  "drawMode": 1,
+  "moves": [
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 3
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "count": 5
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 5
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 5
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 5
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 5
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 8
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 9
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 10
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 9
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 10
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 7
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 8
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 5
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 5
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 7
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 2
+    },
+    {
+      "type": "recycle"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 2
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 6
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 6
+      },
+      "count": 2
+    },
+    {
+      "type": "draw"
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "waste"
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 5
+      },
+      "to": {
+        "kind": "foundation",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 4
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 3
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 3
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 0
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 1
+      },
+      "count": 1
+    },
+    {
+      "type": "move",
+      "from": {
+        "kind": "tableau",
+        "index": 4
+      },
+      "to": {
+        "kind": "tableau",
+        "index": 2
+      },
+      "count": 1
+    }
+  ]
+}

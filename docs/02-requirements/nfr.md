@@ -1,82 +1,70 @@
 # Yêu cầu phi chức năng
 
 > **Trả lời:** Ngưỡng nào áp cho **mọi** feature, để không phải nhắc lại từng lần?
-> **Trạng thái:** 🟡 mặc định đề xuất, chưa rà theo dự án
-> **Cập nhật:** — · commit —
+> **Trạng thái:** 🟢 đủ
+> **Cập nhật:** 2026-09-04 · commit —
 > **Cập nhật khi:** thêm loại tài nguyên mới · thêm nhóm người dùng · sau sự cố sinh ra ngưỡng mới
 
-<!-- CÁCH ĐIỀN
-Đây là file AI BỎ QUA ÂM THẦM nếu nó trống — code vẫn chạy, test vẫn xanh, và
-không có cảnh báo nào. Vì vậy nó được điền sẵn bằng các ngưỡng mặc định hợp lý.
-
-VIỆC CỦA BẠN: đọc một lượt, XOÁ dòng không áp dụng, SỬA con số cho khớp dự án,
-rồi đổi trạng thái sang 🟢. Giữ nguyên nguyên văn mặc định cũng được, nhưng phải
-là lựa chọn có ý thức.
-
-Mỗi dòng phải ĐO ĐƯỢC. Không viết được cách kiểm thì chưa phải yêu cầu:
-  Sai:  "API phải nhanh"      Đúng: "p95 < 300ms cho endpoint đọc"
-  Sai:  "phải bảo mật"        Đúng: "mọi mutation kiểm quyền ở server"
-
-ID không tái dùng. Bỏ một ngưỡng thì đổi thành ~~(bỏ)~~, không xoá dòng.
-Tài liệu thiết kế của feature tham chiếu ID ở dòng `Liên quan:` — KHÔNG chép nội dung sang.
--->
+<!-- Đã rà theo dự án ngày 2026-09-04. Đây là một trang tĩnh chạy hoàn toàn trên máy
+người dùng: không server, không datastore, không tài khoản, không PII. Phần lớn ngưỡng
+mặc định của scaffold viết cho app có backend nên không áp dụng — chúng được giữ lại ở
+dạng ~~(bỏ)~~ kèm lý do, vì ID không được tái dùng. -->
 
 ## Performance
 
 | ID | Ngưỡng | Cách kiểm |
 | --- | --- | --- |
-| NFR-PERF-01 | Mọi endpoint trả danh sách đều phân trang. Mặc định 20, tối đa 100 | review code |
-| NFR-PERF-02 | p95 < 300ms cho endpoint đọc, < 800ms cho endpoint ghi (không tính tác vụ nền) | đo trên môi trường gần production |
-| NFR-PERF-03 | Không có truy vấn N+1 trên đường đi chính | bật log query rồi đi qua luồng chính |
-| NFR-PERF-04 | Mọi cột dùng để filter hoặc sort đều có index | review migration |
+| ~~NFR-PERF-01~~ | ~~(bỏ)~~ không có endpoint nào — không có server | — |
+| NFR-PERF-02 | Một nước đi từ lúc chạm đến lúc bàn bài vẽ xong < 100ms trên điện thoại tầm trung | đo bằng Performance panel trên throttle CPU 4× |
+| ~~NFR-PERF-03~~ | ~~(bỏ)~~ không có truy vấn nào | — |
+| ~~NFR-PERF-04~~ | ~~(bỏ)~~ không có migration, không có index | — |
+| NFR-PERF-05 | Bundle JS tải lần đầu ≤ 150KB sau gzip | `yarn check:bundle` — đo gzip từ các script mà `out/index.html` thật sự tham chiếu, chặn trong CI. Đo được 110KB ngày 2026-09-04 |
+| NFR-PERF-06 | Undo bằng phát lại toàn bộ lịch sử vẫn < 16ms ở ván 300 nước | benchmark trong Vitest |
 
 ## Security
 
 | ID | Ngưỡng | Cách kiểm |
 | --- | --- | --- |
-| NFR-SEC-01 | Mọi mutation kiểm quyền ở **server**. Không tin bất kỳ dữ liệu nào từ client | test cho từng endpoint |
-| NFR-SEC-02 | Không log PII, token, mật khẩu, hay nội dung request body có dữ liệu người dùng | review format log |
-| NFR-SEC-03 | Rate limit endpoint đăng nhập / đăng ký / quên mật khẩu: 10 req/phút/IP | test |
-| NFR-SEC-04 | Secret chỉ đọc từ biến môi trường. Không hardcode, không commit | grep + review |
-| NFR-SEC-05 | Dependency không có lỗ hổng mức high trở lên | lệnh audit của toolchain, chạy trong CI |
-| NFR-SEC-06 | Lỗi trả về client không chứa stack trace, tên bảng, hay câu SQL | test |
+| ~~NFR-SEC-01~~ | ~~(bỏ)~~ không có mutation phía server | — |
+| ~~NFR-SEC-02~~ | ~~(bỏ)~~ không có log, không có PII | — |
+| ~~NFR-SEC-03~~ | ~~(bỏ)~~ không có đăng nhập | — |
+| NFR-SEC-04 | Không có secret nào trong repo. Dự án này lẽ ra không cần biến môi trường nào — một biến mới xuất hiện là dấu hiệu phải xem lại kiến trúc | grep + review `.env.example` |
+| NFR-SEC-05 | Dependency không có lỗ hổng mức high trở lên | `yarn check:audit` — `yarn audit` trả về bitmask gộp mọi mức nên tự nó chặn cả mức moderate; script lọc đúng ngưỡng, và **đỏ nếu audit không chạy được** |
+| ~~NFR-SEC-06~~ | ~~(bỏ)~~ không có lỗi phía server để trả về | — |
 
 ## Accessibility
 
 | ID | Ngưỡng | Cách kiểm |
 | --- | --- | --- |
-| NFR-A11Y-01 | Tương phản chữ thường ≥ 4.5:1, chữ lớn ≥ 3:1 | devtools |
-| NFR-A11Y-02 | Mọi hành động thao tác được bằng bàn phím, và focus luôn thấy được | thử tay |
-| NFR-A11Y-03 | Vùng bấm ≥ 44×44px trên thiết bị cảm ứng | review mockup |
-| NFR-A11Y-04 | Mọi input có label liên kết; thông báo lỗi đọc được bởi screen reader | review |
-| NFR-A11Y-05 | Tôn trọng `prefers-reduced-motion` | review CSS |
+| NFR-A11Y-01 | Tương phản chữ thường ≥ 4.5:1, chữ lớn ≥ 3:1. Áp cho cả mặt bài trên nền bàn | devtools |
+| NFR-A11Y-02 | Mọi nước đi thực hiện được bằng bàn phím, và focus luôn thấy được | thử tay + E2E chơi hết ván chỉ bằng phím |
+| NFR-A11Y-03 | Vùng bấm của một lá bài ≥ 44×44px ở mọi bề rộng màn hình được hỗ trợ | đo trong E2E ở 320px |
+| NFR-A11Y-04 | Mỗi lá bài có nhãn đọc được ("Bích 7, ngửa"); mỗi chồng bài là một vùng có tên | review + axe |
+| NFR-A11Y-05 | Tôn trọng `prefers-reduced-motion`: bài đổi chỗ tức thì, màn mừng không có hiệu ứng động | review CSS + thử tay |
 
 ## i18n
 
 | ID | Ngưỡng | Cách kiểm |
 | --- | --- | --- |
-| NFR-I18N-01 | Không hardcode chuỗi hiển thị trong code | grep |
-| NFR-I18N-02 | Thời gian lưu ở UTC; đổi múi giờ chỉ xảy ra ở tầng hiển thị | test |
-| NFR-I18N-03 | Định dạng số, tiền, ngày theo locale của người dùng | review |
+| NFR-I18N-01 | Không hardcode chuỗi hiển thị trong component. Mọi chuỗi nằm ở `src/lib/strings.ts` | grep |
+| ~~NFR-I18N-02~~ | ~~(bỏ)~~ không lưu và không hiển thị thời gian | — |
+| ~~NFR-I18N-03~~ | ~~(bỏ)~~ UI chỉ tiếng Việt, không có số/tiền/ngày cần định dạng theo locale | — |
 
 ## Reliability
 
 | ID | Ngưỡng | Cách kiểm |
 | --- | --- | --- |
-| NFR-REL-01 | Mọi lệnh gọi ra ngoài có timeout và có nhánh xử lý lỗi | review |
-| NFR-REL-02 | Tác vụ ghi quan trọng là idempotent — retry không tạo bản ghi trùng | test |
-| NFR-REL-03 | Không có trạng thái loading vô hạn: mọi request đều có nhánh lỗi trên UI | thử tay |
+| ~~NFR-REL-01~~ | ~~(bỏ)~~ không có lệnh gọi ra ngoài | — |
+| ~~NFR-REL-02~~ | ~~(bỏ)~~ không có tác vụ ghi | — |
+| NFR-REL-03 | Không có trạng thái kẹt: mọi thao tác hoặc đổi bàn bài, hoặc bỏ lựa chọn. Không bao giờ để người chơi ở giữa một cử chỉ dở dang | E2E: huỷ kéo, nhả chuột ngoài cửa sổ, chạm vùng trống |
+| NFR-REL-04 | Console không có lỗi hay cảnh báo nào trong suốt một ván chơi đầy đủ | E2E bắt console |
 
 ## Data & Privacy
 
 | ID | Ngưỡng | Cách kiểm |
 | --- | --- | --- |
-| NFR-DATA-01 | Trường nào là PII được liệt kê rõ ở bảng dưới | bảng dưới |
-| NFR-DATA-02 | Xoá tài khoản thì xoá hoặc ẩn danh hoá toàn bộ PII của tài khoản đó | test |
-| NFR-DATA-03 | Có đường khôi phục dữ liệu: backup, hoặc migration ngược đã thử thật | thử thật một lần |
+| NFR-DATA-01 | Dự án **không thu thập, không lưu, không gửi đi** bất kỳ dữ liệu người dùng nào. Không localStorage, không cookie, không analytics, không font tải từ CDN ngoài | grep `localStorage`/`document.cookie`/`fetch` + kiểm tab Network trống sau khi tải xong |
+| ~~NFR-DATA-02~~ | ~~(bỏ)~~ không có tài khoản để xoá | — |
+| ~~NFR-DATA-03~~ | ~~(bỏ)~~ không có dữ liệu để khôi phục | — |
 
-**Trường PII trong dự án này:**
-
-| Trường | Nằm ở | Giữ bao lâu |
-| --- | --- | --- |
-| <!-- TODO --> | | |
+**Trường PII trong dự án này:** không có. NFR-DATA-01 là thứ giữ cho ô này trống.
