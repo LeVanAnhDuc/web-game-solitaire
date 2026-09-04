@@ -1,23 +1,21 @@
 # Danh mục chức năng
 
 > **Trả lời:** Hệ thống có những chức năng nào, mỗi cái đang ở trạng thái gì?
-> **Trạng thái:** 🔴 chưa điền
-> **Cập nhật:** — · commit —
+> **Trạng thái:** 🟢 đủ
+> **Cập nhật:** 2026-09-04 · commit —
 > **Cập nhật khi:** brainstorm ra chức năng mới (cấp FR mới) · một FR chuyển trạng thái
-
-<!-- CÁCH ĐIỀN
-Chỉ LIỆT KÊ. Một dòng một chức năng, tên ngắn. Cách làm thuộc tài liệu thiết kế
-của feature, không thuộc đây.
-
-ID cấp tăng dần, không tái dùng, không xoá. Bỏ một chức năng thì đổi trạng thái
-thành (bỏ) và giữ số — vì commit và test cũ vẫn tham chiếu ID đó.
-
-Trạng thái: chưa · đang · xong · (bỏ)
-
-KHÔNG chứa: cách hiện thực, ngưỡng phi chức năng (-> nfr.md), lý do chọn giải pháp
-(-> decisions/).
--->
 
 | ID | Chức năng | Thuộc luồng | Trạng thái |
 | --- | --- | --- | --- |
-| FR-01 | <!-- TODO --> | US-01 | chưa |
+| FR-01 | Chia bài Klondike từ một seed, xác định và tái tạo được | US-01 | chưa |
+| FR-02 | Áp luật Klondike cho mọi nước đi (tableau, foundation, lật bài) | US-01 | chưa |
+| FR-03 | Rút bài 1 hoặc 3 lá, và lật lại chồng rút không giới hạn | US-01 | chưa |
+| FR-04 | Kéo thả bằng chuột và cảm ứng | US-02 | chưa |
+| FR-05 | Chạm đúp để tự tìm chỗ đi hợp lệ | US-03 | chưa |
+| FR-06 | Tự hoàn tất phần cuối ván | US-03 | chưa |
+| FR-07 | Hoàn lại nước đi, không giới hạn số lần | US-04 | chưa |
+| FR-08 | Nhận biết và công bố ván thắng | US-01 | chưa |
+| FR-09 | Ván mới · Chơi lại đúng ván đang chơi | US-05 | chưa |
+| FR-10 | Đổi giữa chế độ rút 1 và rút 3 | US-05 | chưa |
+| FR-11 | Bàn bài co giãn theo bề rộng màn hình, chơi được từ 320px | US-01 | chưa |
+| FR-12 | Chơi trọn ván bằng bàn phím | US-01 | chưa |
