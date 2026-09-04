@@ -14,6 +14,7 @@
 | [ADR-0004](0004-next-js-tinh-theo-khuon-cac-game-anh-em.md) | Dùng Next.js xuất tĩnh, theo đúng khuôn của các game cùng thư mục | 2026-09-04 | accepted |
 | [ADR-0005](0005-khong-luu-van-dang-choi.md) | Không lưu ván đang chơi; tải lại trang là ván mới | 2026-09-04 | accepted |
 | [ADR-0006](0006-mo-mot-van-cu-the-qua-dia-chi.md) | Mở một ván cụ thể qua tham số địa chỉ `?van=<seed>` | 2026-09-04 | accepted |
+| [ADR-0007](0007-phien-ban-va-release-note-suy-ra-tu-lich-su-commit.md) | Số phiên bản và release note suy ra từ lịch sử commit | 2026-09-04 | accepted |
 <!-- END:auto -->
 
 Trạng thái: `accepted` · `superseded by ADR-00xx` · `deprecated`

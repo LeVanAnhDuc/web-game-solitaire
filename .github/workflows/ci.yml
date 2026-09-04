@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# A second push to the same branch makes the first run irrelevant.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  # Split in two on purpose: these run in parallel, and a lint failure and a broken
+  # board are different pieces of news that should not queue behind each other.
+  verify:
+    name: Lint, types, unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Typecheck
+        run: yarn typecheck
+
+      # 208 of them, and three carry the weight: the replay property test, the
+      # frozen-state test that catches a mutation in applyMove, and purity.test.ts
+      # reading the source to prove src/game never reaches for the browser.
+      - name: Unit and component tests
+        run: yarn test
+
+      # NFR-SEC-05. `yarn audit` alone cannot express "high or above": yarn 1
+      # returns a bitmask covering every severity, so a moderate would fail the
+      # build too. The script gates on exactly what the threshold says.
+      - name: Dependency audit
+        run: yarn check:audit
+
+  e2e:
+    name: Build and end-to-end
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile
+
+      - name: Build the static export
+        run: yarn build
+
+      # NFR-PERF-05, measured from the exported HTML rather than from the build
+      # table, so it breaks on a regression and not on a Next.js release.
+      - name: First-load JS budget
+        run: yarn check:bundle
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      # Runs against out/ through scripts/serve.mjs - the thing GitHub Pages will
+      # serve, at 320 / 375 / 768 / 1440. The 1440 project additionally replays a
+      # solved deal all the way to the win screen, which takes about a minute.
+      - name: End-to-end tests
+        run: yarn test:e2e
+
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7

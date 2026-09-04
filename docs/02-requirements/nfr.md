@@ -18,7 +18,7 @@ dạng ~~(bỏ)~~ kèm lý do, vì ID không được tái dùng. -->
 | NFR-PERF-02 | Một nước đi từ lúc chạm đến lúc bàn bài vẽ xong < 100ms trên điện thoại tầm trung | đo bằng Performance panel trên throttle CPU 4× |
 | ~~NFR-PERF-03~~ | ~~(bỏ)~~ không có truy vấn nào | — |
 | ~~NFR-PERF-04~~ | ~~(bỏ)~~ không có migration, không có index | — |
-| NFR-PERF-05 | Bundle JS tải lần đầu ≤ 150KB sau gzip | đọc báo cáo của `next build` |
+| NFR-PERF-05 | Bundle JS tải lần đầu ≤ 150KB sau gzip | `yarn check:bundle` — đo gzip từ các script mà `out/index.html` thật sự tham chiếu, chặn trong CI. Đo được 110KB ngày 2026-09-04 |
 | NFR-PERF-06 | Undo bằng phát lại toàn bộ lịch sử vẫn < 16ms ở ván 300 nước | benchmark trong Vitest |
 
 ## Security
@@ -29,7 +29,7 @@ dạng ~~(bỏ)~~ kèm lý do, vì ID không được tái dùng. -->
 | ~~NFR-SEC-02~~ | ~~(bỏ)~~ không có log, không có PII | — |
 | ~~NFR-SEC-03~~ | ~~(bỏ)~~ không có đăng nhập | — |
 | NFR-SEC-04 | Không có secret nào trong repo. Dự án này lẽ ra không cần biến môi trường nào — một biến mới xuất hiện là dấu hiệu phải xem lại kiến trúc | grep + review `.env.example` |
-| NFR-SEC-05 | Dependency không có lỗ hổng mức high trở lên | `yarn audit`, chạy trong CI |
+| NFR-SEC-05 | Dependency không có lỗ hổng mức high trở lên | `yarn check:audit` — `yarn audit` trả về bitmask gộp mọi mức nên tự nó chặn cả mức moderate; script lọc đúng ngưỡng, và **đỏ nếu audit không chạy được** |
 | ~~NFR-SEC-06~~ | ~~(bỏ)~~ không có lỗi phía server để trả về | — |
 
 ## Accessibility

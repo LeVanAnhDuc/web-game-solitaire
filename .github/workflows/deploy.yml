@@ -1,4 +1,4 @@
-name: Build and deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -10,41 +10,44 @@ permissions:
   pages: write
   id-token: write
 
-# A queued deploy replaces a pending one, but never cancels one that is mid-flight -
-# a half-published site is worse than a slightly stale one.
+# One deploy at a time, and never cancel one halfway: a cancelled deploy can leave
+# the site serving a half-uploaded artifact.
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  verify:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: yarn
+
       - run: yarn install --frozen-lockfile
-      - run: yarn typecheck
-      - run: yarn lint
+
+      # The tests run again here rather than trusting the CI workflow: these two are
+      # independent, and a deploy that assumes a green run it cannot see is a deploy
+      # that will eventually ship a red one.
       - run: yarn test
-      # NFR-SEC-05: high-severity vulnerabilities fail the build rather than being
-      # discovered later. yarn audit exits non-zero via a bitmask; 8 and above is
-      # high + critical.
-      - name: Audit dependencies
-        run: yarn audit --level high --groups dependencies || [ $(( $? & 12 )) -eq 0 ]
+
       - run: yarn build
         env:
-          GITHUB_PAGES: "true"
-      - run: npx playwright install --with-deps chromium
-      - run: yarn test:e2e
+          # Only set here. It switches on basePath for the /web-game-solitaire
+          # sub-path; `yarn dev` and a local build stay at the root.
+          GITHUB_PAGES: 'true'
+
+      - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
 
   deploy:
-    needs: verify
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages

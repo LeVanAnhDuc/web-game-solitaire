@@ -5,6 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "check:audit": "yarn audit --json | node scripts/check-audit.mjs",
+    "check:bundle": "node scripts/check-bundle-size.mjs out",
+    "release:next": "bash scripts/next-version.sh --explain",
+    "release:notes": "bash scripts/release-notes.sh",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",

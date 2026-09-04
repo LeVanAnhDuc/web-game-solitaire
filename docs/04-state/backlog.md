@@ -9,13 +9,18 @@
 
 Không có việc nào đang dở. Feature `klondike` đã xong trên nhánh `feat/klondike`:
 FR-01 → FR-13 đều `xong`, 208 test Vitest và 85 test Playwright (4 bề rộng) xanh,
-`yarn typecheck` / `yarn lint` / `yarn build` xanh. Nhánh chưa merge vào `main`.
+`yarn typecheck` / `yarn lint` / `yarn build` xanh, first-load JS đo được 110KB.
+
+CI/CD đã dựng theo khuôn của `web-game-minesweeper` (ADR-0007): `ci.yml`, `deploy.yml`,
+`release.yml`, cùng bốn script chạy được ở máy. Chưa workflow nào chạy lần nào — chúng
+chỉ khởi động ở lần push đầu tiên lên `main`.
 
 ## Việc tiếp theo
 
 | Việc | Liên quan | Ưu tiên | Vì sao ưu tiên đó |
 | --- | --- | --- | --- |
-| Merge `feat/klondike` vào `main` và bật GitHub Pages cho repo | — | cao | `.github/workflows/deploy.yml` đã sẵn nhưng chưa chạy lần nào; trang tĩnh chỉ có ích khi mở được |
+| Bật GitHub Pages cho repo (Settings → Pages → Source: GitHub Actions) | — | cao | Đây là bước duy nhất phải làm bằng tay. Ba workflow đã sẵn nhưng `deploy.yml` sẽ đỏ cho tới khi Pages được bật |
+| Merge `feat/klondike` vào `main` | — | cao | Push đầu tiên lên `main` sẽ chạy CI, deploy, và phát hành `v1.0.0` |
 | E2E chơi hết một ván **bằng kéo thả** | FR-04 | trung bình | Hiện kéo thả chỉ được kiểm ở mức một nước; hai lối vào phải cho cùng kết quả, và đó đúng là thứ dễ trôi ra khỏi nhau |
 | Đo NFR-PERF-02 trên máy thật, có throttle CPU | NFR-PERF-02 | trung bình | Ngưỡng 100ms mỗi nước chưa từng được đo; mọi thứ khác trong `nfr.md` đã có số |
 | Xem lại `--overlap-up` ở 320px | FR-11 | thấp | Ở 320px lá bài rộng ~41px, dải nhìn thấy của lá bị che còn 18px — chơi được nhưng chật |
