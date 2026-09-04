@@ -19,8 +19,7 @@ chỉ khởi động ở lần push đầu tiên lên `main`.
 
 | Việc | Liên quan | Ưu tiên | Vì sao ưu tiên đó |
 | --- | --- | --- | --- |
-| Bật GitHub Pages cho repo (Settings → Pages → Source: GitHub Actions) | — | cao | Đây là bước duy nhất phải làm bằng tay. Ba workflow đã sẵn nhưng `deploy.yml` sẽ đỏ cho tới khi Pages được bật |
-| Merge `feat/klondike` vào `main` | — | cao | Push đầu tiên lên `main` sẽ chạy CI, deploy, và phát hành `v1.0.0` |
+| Merge `feat/klondike` vào `main` | — | cao | Push đầu tiên lên `main` sẽ chạy CI, deploy lên Pages, và phát hành `v1.0.0`. Pages đã bật sẵn (source = GitHub Actions), nên không còn bước tay nào |
 | E2E chơi hết một ván **bằng kéo thả** | FR-04 | trung bình | Hiện kéo thả chỉ được kiểm ở mức một nước; hai lối vào phải cho cùng kết quả, và đó đúng là thứ dễ trôi ra khỏi nhau |
 | Đo NFR-PERF-02 trên máy thật, có throttle CPU | NFR-PERF-02 | trung bình | Ngưỡng 100ms mỗi nước chưa từng được đo; mọi thứ khác trong `nfr.md` đã có số |
 | Xem lại `--overlap-up` ở 320px | FR-11 | thấp | Ở 320px lá bài rộng ~41px, dải nhìn thấy của lá bị che còn 18px — chơi được nhưng chật |
