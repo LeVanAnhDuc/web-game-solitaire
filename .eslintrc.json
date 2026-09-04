@@ -1,0 +1,27 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "overrides": [
+    {
+      "files": ["src/game/**/*.ts"],
+      "excludedFiles": ["src/game/**/*.test.ts"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": ["react", "react-dom", "next", "next/*", "@/hooks/*", "@/components/*"],
+                "message": "src/game must stay framework-free - invariant #1. Move this to hooks/ or components/."
+              }
+            ]
+          }
+        ],
+        "no-restricted-globals": [
+          "error",
+          { "name": "window", "message": "src/game must not touch the browser - invariant #1." },
+          { "name": "document", "message": "src/game must not touch the browser - invariant #1." }
+        ]
+      }
+    }
+  ]
+}

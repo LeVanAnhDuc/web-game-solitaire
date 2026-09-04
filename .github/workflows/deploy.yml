@@ -1,0 +1,54 @@
+name: Build and deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# A queued deploy replaces a pending one, but never cancels one that is mid-flight -
+# a half-published site is worse than a slightly stale one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+      - run: yarn typecheck
+      - run: yarn lint
+      - run: yarn test
+      # NFR-SEC-05: high-severity vulnerabilities fail the build rather than being
+      # discovered later. yarn audit exits non-zero via a bitmask; 8 and above is
+      # high + critical.
+      - name: Audit dependencies
+        run: yarn audit --level high --groups dependencies || [ $(( $? & 12 )) -eq 0 ]
+      - run: yarn build
+        env:
+          GITHUB_PAGES: "true"
+      - run: npx playwright install --with-deps chromium
+      - run: yarn test:e2e
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

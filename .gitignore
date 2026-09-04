@@ -4,3 +4,16 @@
 .env
 .env.*
 !.env.example
+
+# Toolchain
+/node_modules/
+/.next/
+/out/
+/dist/
+*.tsbuildinfo
+yarn-error.log
+
+# Test output
+/test-results/
+/playwright-report/
+/playwright/.cache/
